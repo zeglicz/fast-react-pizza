@@ -27,6 +27,23 @@ This project is based on [_The Ultimate React Course 2025: React, Next.js, Redux
 - `/order/new` – create a new order
 - `/order/:id` – check the status of an existing order
 
+## Project structure
+
+The app follows a **feature-based structure** for scalability and maintainability:
+
+```bash
+src/
+├─ features/       # feature domains (user, menu, cart, order)
+├─ ui/             # reusable UI components (buttons, inputs, pages)
+├─ services/       # API interaction (pizza API, geocoding)
+├─ utils/          # pure helper functions (date, currency, calculations)
+├─ index.css
+└─ main.jsx
+```
+
+Each feature folder contains all related components, slices, and logic.
+This co-location keeps code organized, avoids unnecessary jumping across files, and mirrors real-world project setups.
+
 ## Installation
 
 ```bash
