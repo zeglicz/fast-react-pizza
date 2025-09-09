@@ -4,6 +4,10 @@ Single Page Application (SPA) for online pizza ordering. The project simulates w
 
 This project is based on [_The Ultimate React Course 2025: React, Next.js, Redux & More_](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann. Educational repository, not intended for production use.
 
+## Demo
+
+![app view](docs/demo.jpg)
+
 ## Features
 
 - Dynamic pizza menu fetched from an API
